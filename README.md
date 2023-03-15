@@ -2,8 +2,7 @@
 
 ----------------------
 
-## Versie
-<kbd>0.0.1</kbd>
+## Huidige versie <kbd>0.0.2</kbd>
 
 ## Opdrachtbeschrijving
 
@@ -17,9 +16,9 @@ Applicatie programmeren die meerdere nieuwe Pokèmon kan aanmaken.
 
 - [ ] Mian(..){..}\
   &emsp; met:
-  - [ ] Instantiatie van de vier *subklassen* Pokèmon met hun attributen. 
-  - [ ] Aanroepen in de `main` methode van verschillende methodes van de verschillende *Pokèmons*, uit zowel de *sub-* 
-    als de *superklasse*.  
+  - [X] Instantiatie van de vier *subklassen* Pokèmon met hun attributen. <kbd>0.0.1</kbd>  
+  - [X] Aanroepen in de `main` methode van verschillende methodes van de verschillende *Pokèmons*, uit zowel de *sub-* 
+    als de *superklasse*.  <kbd>0.0.1</kbd>
   
 
 </td>
@@ -27,12 +26,12 @@ Applicatie programmeren die meerdere nieuwe Pokèmon kan aanmaken.
 <tr>
 <td colspan="5">
 
-- [X] Een Super klasse `public abstract class Pokemon(..){..}`\
+- [X]  Een Super klasse `public abstract class Pokemon(..){..}` <kbd>0.0.1</kbd>\
 &emsp; met *minimaal*:
   - [X] 2 private variabelen: `int hitPoints`, `int experiencePoints`,`int lvl`
-  - [X] Public variabelen: `String name`,~~~`int[] arrLevelupXp`~~~
+  - [X] Public variabelen: `String name`
   - [X] 1 constructor: `Pokemon(..){}`
-  - [X] 2 methodes: `displayBasePkm(){}`, `displayAvatar(){}`, `attack(){}`\
+  - [X] 2 methodes: `displayBasePkm(){}`, `displayAvatar(){}`, `attack(){}`
   - [X] 2 getters: `getName`, `getHitPoints`, `getExperiencePoints`,`getLvl`,`getArrLevelupXp`
   - [X] 2 setters: `setName`, `setHitPoints`, `setExperiencePoints`,`setLvl`,`setArrLevelupXp`
 
@@ -41,13 +40,13 @@ Applicatie programmeren die meerdere nieuwe Pokèmon kan aanmaken.
 </tr><tr>
 <td>
 
-- [ ] 4 subklassen met minimaal:
-    - [ ] 2 private variabelen.
-    - [ ] 1 constructor
-    - [ ] 2 methodes
-    - [ ] 1 override
-    - [ ] 2 getters
-    - [ ] 2 setters
+- [X] 4 subklassen met minimaal:
+    - [X] 2 private variabelen.
+    - [X] 1 constructor
+    - [X] 2 methodes
+    - [X] 1 override
+    - [X] 2 getters
+    - [X] 2 setters
 
 </td>
 <td>
@@ -139,12 +138,13 @@ Applicatie programmeren die meerdere nieuwe Pokèmon kan aanmaken.
 1. FirePkm maken. (vars, constructor, override `attack` met een System.out.println("Attack!"))
 1. Main Klaas eruit... `Pokemon Pyro = new FirePkm("Pyro", 100f, 0,0, "Fire", 17, 7);`
 1. Draaien... Werkt :smile:
-1. Pyro uitgebreid tot alle vinkjes van   
-
+1. `FirePkm` en `WaterPkm` af gemaakt.
+2. Push versie <kbd>0.0.1</kbd> naar huiswerk-tak.
 
 ## Bonusopdrachten
 
-1. Bedenk of het mogelijk zou zijn om een abstracte klasse te implementeren in deze appplicatie. En zo ja, implementeer deze abstracte klasse dan in jouw project;
+1. Bedenk of het mogelijk zou zijn om een abstracte klasse te implementeren in deze appplicatie.
+
 2. Bedenk of het mogelijk zou zijn om één of meer abstracte methodes te implementeren. En zo ja, implementeer deze!
 3. Probeer een manier te vinden waardoor één Pokèmon twee verschillende types tegelijk zou kunnen zijn. Kun je dit implementeren?
 
